@@ -6,6 +6,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+#app-mount {
+  font-family: 'Roboto', 'Arial';
+}
+
 svg.homeIcon-tEMBK1, .da-homeIcon {
   background: url(https://i.imgur.com/vbSJz26.gif);
   background-position: center;
@@ -14,4 +18,10 @@ svg.homeIcon-tEMBK1, .da-homeIcon {
   z-index: 2;
   width: 55px;
   height: 56px;
+}
+
+#app-mount .layers-3iHuyZ {
+  margin: var(--window-padding);
+  overflow: hidden;
+  border-radius: var(--window-roundness);
 }
