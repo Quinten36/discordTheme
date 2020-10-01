@@ -1,0 +1,5 @@
+//META{"name":"Quinty","description":"A simple pack for destroying everything","author":"Quinty","version":"0.0","invite":"","source":"https://github.com/codedotspectra/themes"}*//
+
+.container-3baos1:before, .container-3baos1:after, .typeWindows-1za-n7>.wordmark-2iDDfm:before, .typeWindows-1za-n7>.wordmark-2iDDfm:after {
+  content: "";
+}
