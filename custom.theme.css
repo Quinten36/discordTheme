@@ -1,13 +1,11 @@
-//META{"name":"Quinty","description":"A simple pack for destroying everything","author":"Quinty","version":"0.0","invite":"","source":"https://github.com/codedotspectra/themes"}*//
+//META{"name":"Quinty","description":"A simple pack for destroying everything","author":"Quinty","version":"0.0","invite":"","source":"https://github.com/Quinten36/discordTheme"}*//
 
 .container-3baos1:before, .container-3baos1:after, .typeWindows-1za-n7>.wordmark-2iDDfm:before, .typeWindows-1za-n7>.wordmark-2iDDfm:after {
-  content: "";
+  content: "" !important;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
 #app-mount {
-  font-family: 'Roboto', 'Arial';
+  font-family: 'Roboto';/*, 'Arial'*/
 }
 
 svg.homeIcon-tEMBK1, .da-homeIcon {
@@ -20,8 +18,40 @@ svg.homeIcon-tEMBK1, .da-homeIcon {
   height: 56px;
 }
 
-#app-mount .layers-3iHuyZ {
-  margin: var(--window-padding);
-  overflow: hidden;
-  border-radius: var(--window-roundness);
+#app-mount .base-3dtUhz:before {
+  content: "";
+  position: absolute;
+  height: 5px;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), transparent);
+  z-index: 1;
+  top: 48px;
+  pointer-events: none;
+  user-select: none;
+}
+
+.appMount-3lHmkl .actionButtons-14eAc_ > .lookFilled-1Gx00P.colorBrand-3pXr91 {
+  background-color: #36D1DC;
+  background-image: linear-gradient(to bottom right,#36D1DC,#5B86E5);
+  border: none;
+  color: #fff;
+  border-radius: 40px 11px;
+}
+
+/*Om meer servers te vinden*/
+#bd-pub-li {
+  display: none;
+}
+
+.container-1giJp5>.flex-1O1GKY {
+  padding: 0 4px;
+}
+
+.container-1giJp5>.flex-1O1GKY>.inner-tyMogq {
+  padding: 1px 0 1px 2px;
+}
+
+.actionIcon-2Hi9ZG {
+  width: 17px;
+  height: 17px;
 }
