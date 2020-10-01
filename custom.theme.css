@@ -3,3 +3,15 @@
 .container-3baos1:before, .container-3baos1:after, .typeWindows-1za-n7>.wordmark-2iDDfm:before, .typeWindows-1za-n7>.wordmark-2iDDfm:after {
   content: "";
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+svg.homeIcon-tEMBK1, .da-homeIcon {
+  background: url(https://i.imgur.com/vbSJz26.gif);
+  background-position: center;
+  background-size: 65px 65px;
+  color: transparent !important;
+  z-index: 2;
+  width: 55px;
+  height: 56px;
+}
